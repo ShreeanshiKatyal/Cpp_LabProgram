@@ -55,7 +55,7 @@ public:
         cout << "Duration        : " << time_hrs << " hrs" << endl;
     }
 
-    float getAvgSpeed() {
+    friend getAvgSpeed() {
         return (float)distance_km / time_hrs;
     }
 };
@@ -210,3 +210,4 @@ int main() {
 
     return 0;
 }
+
